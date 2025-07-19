@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { createCheckoutSession } from "../../../services/cartservice";
+
 import { useAuth } from "../../context/AuthContext";
 import { useCart } from "../../context/CartContext";
+import { createCheckoutSession } from "../../services/cartservice";
 import LoadingSpinner from "../common/LoadingSpinner";
 
 const Checkout = () => {
