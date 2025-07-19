@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createCheckoutSession } from "../../../services/cartservice";
+import { createCheckoutSession } from "../../../services/cartService";
 import { useAuth } from "../../context/AuthContext";
 import { useCart } from "../../context/CartContext";
 import LoadingSpinner from "../common/LoadingSpinner";
